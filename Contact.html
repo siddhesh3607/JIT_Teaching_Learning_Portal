@@ -1,0 +1,198 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>JIT-Teaching-Learning</title>
+    <link rel="icon" href="/img/jit_logo.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+
+    
+<script>
+    // Create a new XMLHttpRequest object
+    var xhr = new XMLHttpRequest();
+
+    // Configure the AJAX request
+    xhr.open('GET', 'Header.html', true);
+
+    // Set up a callback function to handle the response
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                // Insert the received content into the 'header-content' div
+                document.getElementById('header-content').innerHTML = xhr.responseText;
+            } else {
+                console.error('Failed to load Header.html');
+            }
+        }
+    };
+
+    // Send the request
+    xhr.send();
+    function loadFooter() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'footer.html', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    document.getElementById('footer-content').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+
+        // Call the function to load the footer when the page loads
+        window.onload = loadFooter;
+</script>
+<body>
+    <div id="header-content">
+
+    <?php include 'Header.html'; ?>
+</div>
+
+
+
+    <!-- slider-start -->
+
+    <div class="slider-area">
+        <div class="pages-title">
+            <div class="single-slider slider-height slider-height-breadcrumb d-flex align-items-center"
+                style="background-image: url(img/bg/others_bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider-content slider-content-breadcrumb text-center">
+                                <h1 class="white-color f-700">Contact Us</h1>
+                                <!-- <div>
+                                    <button class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">Login</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- courses start -->
+<
+<div class="advisors-area gray-bg pt-95 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-6 col-md-10 offset-md-1 ml-md-auto">
+                <div class="contact-info-text">
+                    <div class="section-title mb-20">
+                        <div class="section-title-heading mb-10">
+                            <h1>Contact Info</h1>
+                        </div>
+                        <div class="section-title-para">
+                            <p>Jawahar Education Society’s,
+                                Institute of Technology, Management & Research
+                                
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info mb-50 wow fadeInRight" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+                    <ul>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="ti-headphone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Call Us</h5>
+                                <span>0253-2970077<br/>  9022025101</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="ti-email"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Email Us</h5>
+                                <span>jitnashik2012@gmail.com<br/>
+                                    principaljitnashik@rediffmail.com</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="ti-location-pin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h5>Location</h5>
+                                <span>Survey No 48, Gowardhan, Gangapur Road, Nashik - 422 222. Maharashtra, India</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 col-md-10 offset-md-1 ml-md-auto">
+                <div class="events-details-form faq-area-form mb-30 p-0">
+                    <form>
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <div class="events-form-title mb-25">
+                                    <h2>Do You Have Any Questions</h2>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <input placeholder="Name :" type="text">
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <input placeholder="Email :" type="text">
+                            </div>
+                            <div class="col-xl-12">
+                                <input placeholder="Subject :" type="text">
+                            </div>
+                          
+                            <div class="col-xl-12">
+                                <textarea cols="30" rows="10" placeholder="Message :"></textarea>
+                            </div>
+                            <div class="col-xl-12">
+                                <div class="faq-form-btn events-form-btn">
+                                    <button class="btn m-0">submit now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                    <iframe class="col-xl-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.4340147739595!2d73.68752351491618!3d20.03225568654657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddedd75b257ee7%3A0xd607636433df8d5f!2sJawahar+Education+Society&#39;s+Institute+of+Technology+Management+and+Research!5e0!3m2!1sen!2sin!4v1493263444220"  height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- courses end -->
+    
+
+    <div id="footer-content">
+        <?php include 'Footer.html'; ?>
+    
+    </div>
+    
+</body>
+
+
+</html>

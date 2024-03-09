@@ -1,0 +1,217 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>JIT-Teaching-Learning</title>
+    <link rel="icon" href="/img/jit_logo.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+
+    
+<script>
+    // Create a new XMLHttpRequest object
+    var xhr = new XMLHttpRequest();
+
+    // Configure the AJAX request
+    xhr.open('GET', 'Header.html', true);
+
+    // Set up a callback function to handle the response
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                // Insert the received content into the 'header-content' div
+                document.getElementById('header-content').innerHTML = xhr.responseText;
+            } else {
+                console.error('Failed to load Header.html');
+            }
+        }
+    };
+
+    // Send the request
+    xhr.send();
+    function loadFooter() {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'footer.html', true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    document.getElementById('footer-content').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+
+        // Call the function to load the footer when the page loads
+        window.onload = loadFooter;
+</script>
+<body>
+    <div id="header-content">
+
+    <?php include 'Header.html'; ?>
+</div>
+
+
+
+    <!-- slider-start -->
+
+    <div class="slider-area">
+        <div class="pages-title">
+            <div class="single-slider slider-height slider-height-breadcrumb d-flex align-items-center"
+                style="background-image: url(img/bg/others_bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider-content slider-content-breadcrumb text-center">
+                                <h1 class="white-color">"A world of knowledge at your fingertips"</h1><br/>
+                                <h2 class="white-color">WELCOME TO OUR LEARNING PORTAL</h2>
+                                <div>
+                                    <button class="btn yellow-bg-btn" data-animation="fadeInUp" data-delay=".6s">Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="feature_area section_gap_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="main_title">
+                        <h2 class="mb-3">Awesome Feature</h2>
+                        <p>
+                            <i>"Unlocking Greatness with our college's Awesome Feature"</i><br/><br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature">
+                        <div class="icon"><img src="img/graduation.png" />
+                        </div>
+                        <div class="desc">
+                            <h4 class="mt-3 mb-2">Scholarship Facility</h4>
+                            <p>
+                                Empowering dreams through our Scholarship Facility
+                            </p><br/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature">
+                        <div class="icon"><img src="img/book.png" /></div>
+                        <div class="desc">
+                            <h4 class="mt-3 mb-2">Community Enagagement</h4>
+                            <p>
+                               Connecting hearts, transforming communities through Community Enagagement
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_feature">
+                        <div class="icon"><img src="img/earth.png" /></div>
+                        <div class="desc">
+                            <h4 class="mt-3 mb-2">Expert Faculty</h4>
+                            <p>
+                                Nurturing minds with our Expert Faculty
+                            </p><br/><br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!--================ Start Testimonial Area =================-->
+ <div class="testimonial_area section_gap">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <div class="main_title">
+            <h2 class="mb-3">Our Alumini</h2>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="testi_slider owl-carousel">
+          
+        
+          
+         
+          <div class="testi_item">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <img src="img/tambe.jpg" alt="" width="54%"/>
+              </div>
+              <div class="col-lg-8">
+                <div class="testi_text">
+                  <h4><b>Dhanshree Tambe</b></h4>
+                  <p>
+                    "My Journey with JIT given me lot, not only with respect to Academics but also it helps for Personality Development"
+<br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testi_item">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <img src="img/harshada.jpg" alt="" />
+              </div>
+              <div class="col-lg-8">
+                <div class="testi_text">
+                  <h4><b>Harshada Das</b></h4>
+                  <p>
+                    "I am thankful as my teachers taught me “Keep going. Everything you need will come to you at the perfect time.”
+<br/>
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--================ End Testimonial Area =================-->
+
+    <div id="footer-content">
+        <?php include 'Footer.html'; ?>
+    
+    </div>
+    
+</body>
+
+
+</html>
